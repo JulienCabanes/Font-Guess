@@ -1,0 +1,18 @@
+{
+  "name": "font-guesser",
+  "version": "1.0.0",
+  "description": "A small Javascript utility that guess which font is really used for rendering",
+  "main": "src/font-guesser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "font",
+    "font-family",
+    "guess",
+    "guesser",
+    "utility"
+  ],
+  "author": "Julien Cabanès <julien.c@icloud.com>",
+  "license": "BSD-2-Clause"
+}
