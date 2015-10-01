@@ -1,0 +1,28 @@
+<!doctype html>
+<meta charset="utf-8"/>
+<title>FontGuess Demo</title>
+<link rel="stylesheet" href="demo.css"/>
+<body>
+
+<h1>FontGuess Demo</h1>
+<div class="fake-font">
+
+  <h2>Rendered fonts</h2>
+  <p>
+    This table contain many different font-family declarations and <code>FontGuess.findUsedFont()</code> result.
+    Edit them and see what FontGuess finds</p>
+  <table class="table" id="find-font-table">
+  <tr>
+    <th>font-family</th>
+    <th>render</th>
+    <th>result</th>
+  </tr>
+  </table>
+
+  <h2>Available fonts</h2>
+  <p>This list contain commonly installed fonts (Mac & Windows), green ones should be availables in your browser according to <code>FontGuess.isFontAvailable()</code></p>
+  <ul id="available-fonts-list"></ul>
+</div>
+
+<script src="../dist/font-guess.js"></script>
+<script src="demo.js"></script>
